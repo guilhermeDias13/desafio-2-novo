@@ -41,7 +41,7 @@ html {
 }
 
 #principal{
-  background-image:url(/assests/ImagemHeader.jpeg);
+  background-image:url(assests/ImagemHeader.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 12px;
