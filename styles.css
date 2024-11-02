@@ -254,14 +254,25 @@ html {
   width: 368px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap:10px;
 }
 
 .item-lista {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
+.item-lista-span{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
 
 .item-lista p,
 .item-lista-span span,
@@ -363,8 +374,4 @@ html {
     padding-left: 133px;
   }
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 9c32e09d1f3941ad4cef1e195e1e31a7d969fd9c
