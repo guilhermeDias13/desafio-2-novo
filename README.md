@@ -21,4 +21,5 @@ O objetivo principal deste desafio é **desenvolver uma aplicação web** que cu
 1. Clone o repositório para sua máquina:
    ```bash
  ##  [Clonar](https://github.com/elasoares/The-Dev-News)
- ##   [Acessar o site](https://elasoares.github.io/The-Dev-News/)
+ ##   [Acessar o site hospedado no github](https://elasoares.github.io/The-Dev-News/)
+ ##   [Acessar o site hospedado no netlify](https://thedev-news.netlify.app/)
