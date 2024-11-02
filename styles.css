@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Yusei+Magic&display=swap');
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- }
-html{
+}
+
+html {
   font-family: "Montserrat", sans-serif;
   height: 100%;
   width: 100%;
 }
 
-
 /* ==========================Header=========================== */
 
-#container-header{
+#container-header {
   background-color: #02A28F;
   height: 56px;
   color: #fff;
@@ -22,16 +23,17 @@ html{
   margin-bottom: 30px;
 }
 
-
-#titulo-header{
+#titulo-header {
   color: #fff;
   font-size: 30px;
   font-weight: 700;
   line-height: 56px;
   text-align: center;
 }
-/* ==========================Section Imagem principal=========================== */
-#container-imagem-principal{
+
+/* ==========================Section Imagem Principal=========================== */
+
+#container-imagem-principal {
   width: 100%;
   display: flex;
   align-items: center;
@@ -45,146 +47,123 @@ html{
   border-radius: 12px;
   width: 368px;
   height: 396px;
-  padding: 0px 15px;
+  padding: 0 15px;
 }
 
-
-.titulo-imagem-principal{
+.titulo-imagem-principal {
   position: relative;
-  top:60%;
+  top: 60%;
   width: 320px;
   height: 100px;
   gap: 1px;
 }
-.titulo-imagem{
+
+.titulo-imagem {
   font-size: 24px;
   font-weight: 700;
   line-height: 29.26px;
   text-align: left;
   color: #ffffff;
-  
 }
-.paragra-image-principal{
-  font-family: Montserrat;
+
+.paragra-image-principal {
   font-size: 16px;
   line-height: 19.5px;
-  text-align: left;  
+  text-align: left;
   color: #ffffff;
 }
-.paragra-image-principal span{
+
+.paragra-image-principal span {
   font-weight: 700;
 }
 
-.imagem{
+.imagem {
   width: 368px;
   height: 191px;
 }
 
-
-
 /* ==========================Main=========================== */
-#main{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 25px;
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
 }
 
-
-
 /* =============Section - Post ================= */
-#container-post{
+
+#container-post {
   width: 100%;
-  height: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
   gap: 25px;
 }
-#informacao-post{
+
+.informacao-post {
   background-color: #FFFFFF;
-  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1); 
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
   width: 368px;
-  height: auto;  
+  padding: 15px;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
   flex-direction: column;
   gap: 10px;
-  padding: 0 15px;
 }
 
-#container-descricao-post{
+#container-descricao-post {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
   flex-direction: column;
   gap: 10px;
-  padding: 5px 5px 10px 5px;
+  padding: 5px;
 }
-.paragrafo-desenvolvimento{
+
+.paragrafo-desenvolvimento {
   color: #02A28F;
 }
 
-.paragrafo-autor{
-  font-family: Montserrat;
+.paragrafo-autor,
+.paragrafo-descricao,
+.paragrafo-data {
   font-size: 14px;
   line-height: 17.07px;
   text-align: left;
-
 }
-.paragrafo-autor span{
-  font-family: Montserrat;
-  font-size: 14px;
+
+.paragrafo-autor span,
+.paragrafo-data {
   font-weight: 500;
-  line-height: 17.07px;
-  text-align: left;  
 }
 
-.paragrafo-descricao{
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 17.07px;
-  text-align: left;
-}
-.paragrafo-data{
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 17.07px;
-  text-align: left;
-  
-}
+/* Botão para ver todos os posts */
 
-#topo-ver-todos-post{
-  width: 60%;
+#topo-ver-todos-post {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color:  #02A28F;
-  width:368pxpx;
-  height: 40pxpx;
-  padding: 8px 16px 8px 16px;
-  gap: 0px;
+  background-color: #02A28F;
+  width: 368px;
+  height: 40px;
+  padding: 8px 16px;
   border-radius: 10px;
 }
 
-#topo-ver-todos-post h2{
+#topo-ver-todos-post h2 {
   font-size: 20px;
   color: #FFFFFF;
 }
-#topo-ver-todos-post a{
+
+#topo-ver-todos-post a {
   font-size: 14px;
   color: #FFFFFF;
 }
 
-
 /* ===============Section - top-post-populares-card ================ */
-#container-post-populares{
+
+#container-post-populares {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,120 +172,95 @@ gap: 25px;
   gap: 20px;
 }
 
-
-#topo-post-populares{
-  width: 60%;
+#topo-post-populares {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color:  #02A28F;
-  width:368pxpx;
-  height: 40pxpx;
-  padding: 8px 16px 8px 16px;
-  gap: 0px;
+  background-color: #02A28F;
+  width: 368px;
+  height: 40px;
+  padding: 8px 16px;
   border-radius: 10px;
 }
-#topo-post-populares h2{
+
+#topo-post-populares h2 {
   font-size: 20px;
   color: #FFFFFF;
 }
 
-
-#card{
+#card {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
   gap: 10px;
   width: 366px;
   height: 106px;
-  padding: 0 0 0 10px;
+  padding-left: 10px;
   border-radius: 10px;
   background-color: #FFFFFF;
   box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.1);
 }
 
-.imagem-post-populares{
+.imagem-post-populares {
   width: 154px;
   height: 90px;
 }
 
-.titulo-post-populares{
-  font-family: Montserrat;
+.titulo-post-populares {
   font-size: 14px;
   font-weight: 700;
 }
 
 /* ===================container-lista-Categorias========================= */
 
-#container-lista-categorias{
+#container-lista-categorias {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   width: 100%;
   flex-direction: column;
   gap: 20px;
 }
 
-#topo-lista-categorias{
-  width: 300px;
+#topo-lista-categorias {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color:  #02A28F;
-  width:368px;
-  height: 40pxpx;
-  padding: 8px 16px 8px 16px;
-  gap: 0px;
+  background-color: #02A28F;
+  width: 368px;
+  height: 40px;
+  padding: 8px 16px;
   border-radius: 10px;
 }
-#topo-lista-categorias h2{
+
+#topo-lista-categorias h2 {
   font-size: 20px;
   color: #FFFFFF;
 }
 
-#container-item-lista{
+#container-item-lista {
   width: 368px;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
   flex-direction: column;
 }
-.item-lista{
+
+.item-lista {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
   width: 100%;
 }
-.item-lista p{
-  font-family: Montserrat;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 19.5px;
-  text-align: left;
-  
-}
 
-.item-lista-span{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
-  gap: 5px;
-}
-.item-lista-span span, h3{
-  font-family: Montserrat;
+.item-lista p,
+.item-lista-span span,
+.item-lista h3 {
   font-size: 16px;
   font-weight: 600;
   line-height: 19.5px;
   text-align: left;
-  
 }
 
 /* =============================Footer========================================= */
 
-#container-footer{
+#container-footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -315,49 +269,38 @@ gap: 25px;
   height: 48px;
 }
 
-.paragrafo-footer{
-  font-family: Montserrat;
+.paragrafo-footer {
   font-size: 18px;
   font-weight: 600;
-  line-height: 17.07px;
   color: #FFFFFF;
 }
 
-/* ==========================Media====================== */
+/* ==========================Media Queries====================== */
 
-
-/* ==========================Media Query para telas maiores====================== */
 @media (min-width: 750px) {
-  #principal{
+  #principal,
+  #topo-ver-todos-post,
+  #topo-post-populares,
+  #topo-lista-categorias {
     width: 390px;
   }
-  
-  #topo-ver-todos-post{
-    width: 390px;
-  }
-  #topo-post-populares{
-    width: 390px;
-  }
-  #topo-lista-categorias{
-    width: 390px;
-  } 
 }
+
 @media (min-width: 1200px) {
   #main {
-    overflow: hidden;
     display: grid;
     grid-template-areas:
       "container-imagem-principal container-post-populares"
       "container-post container-lista-categorias"
       "container-footer container-footer";
-    grid-template-columns: 2fr 1fr; 
-    grid-template-rows: calc(3, 1fr);
-    width: 100%;
+    grid-template-columns: 2fr 1fr;
     gap: 20px;
   }
-  #principal{
+
+  #principal {
     width: 755px;
   }
+<<<<<<< HEAD
 
   #container-imagem-principal {
     grid-area: container-imagem-principal;
@@ -405,4 +348,6 @@ gap: 25px;
   #container-header{
     padding-left: 133px;
   }
+=======
+>>>>>>> dd5f1f520228df38bd837b6dc70505de531ab95a
 }
