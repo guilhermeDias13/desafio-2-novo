@@ -319,7 +319,7 @@ html {
       "container-post container-lista-categorias"
       "container-footer container-footer";
     grid-template-columns: 2fr 1fr;
-    gap: 20px;
+    gap: 50px;
   }
 
   #principal {
@@ -352,7 +352,7 @@ html {
     grid-area: container-lista-categorias;
     width: 100%; 
     position: relative;
-    bottom: 340px;
+    bottom: 380px;
     padding: 0 20px 0 0;
   }
 
